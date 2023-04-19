@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="weather__box">
+        <div class="weather__wrapper">
+            <p class="weather__title">Погода</p>
+            <p class="weather__search">Введите город, чтобы получить данные о погоде:</p>
+            <div class="weather__search-panel">
+                <input placeholder="Kyiv" type="text" id="city">
+                <button onclick="getWeather()">Поиск</button>
+            </div>
+            <div class="weather__option" id="weather"></div>
+            <div class="weather__option" id="weathertwo"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
